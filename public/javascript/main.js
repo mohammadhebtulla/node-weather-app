@@ -1,11 +1,6 @@
-
-
-
 const addressForm =document.querySelector('form') ;
 const messageOne =document.querySelector('#m-1') ;
 const messageTwo =document.querySelector('#m-2') ; 
-
-
 
 addressForm.addEventListener('submit',(e)=>{
   e.preventDefault() ;
