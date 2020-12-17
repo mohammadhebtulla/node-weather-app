@@ -1,0 +1,107 @@
+/* css reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header #navbar{
+  max-width: 960px;
+  margin: auto;
+  background-color: #333;
+}
+
+header #navbar-container {
+text-align: center;
+}
+
+header .logo {
+  float: left;
+  font-size: 60px;
+}
+
+header ul li{
+  float: right;
+  list-style: none;
+  
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #888888;
+  padding: 10px 20px;
+}
+.clr {
+  clear: both;
+} */
+
+
+body {
+  color: #333333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 250px;
+}
+
+input {
+  border: 1px solid #888888;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+button {
+  cursor: pointer;
+  color: white;
+  padding: 8px 36px;
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  
+  margin-left: 140px;
+  
+}
+
+button:hover {
+  color: #333333;
+  background-color: coral;
+}
+#m-1,#m-2 {
+  font-weight: bold;
+  font-size: 25px;
+}

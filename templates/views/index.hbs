@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="/javascript/main.js"></script>
+</head>
+<body>
+
+<div class="main-content">
+  {{>header}}
+  <p>Use this app to get your weather forecast</p><br>
+  <form >
+    <div>
+      <label for="search">Enter your Location/Addres</label>
+      <input type="text" id="search"><br>
+      <br>
+      <button type="submit">Search</button>
+    </div>
+    <br>
+    <br>
+    <div>
+      <p id="m-1"></p>
+      <p id="m-2"></p>
+    </div>
+    
+  </form>
+</div>
+
+  
+  {{>footer}}
+</body>
+</html>
