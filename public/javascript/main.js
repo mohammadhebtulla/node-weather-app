@@ -7,7 +7,7 @@ addressForm.addEventListener('submit',(e)=>{
   const location = document.querySelector('input').value ;
   messageOne.textContent = 'Loading ....'
   messageTwo.textContent = '' ;
-  fetch(`http://localhost:3000/weather?address=${encodeURIComponent(location)}`).then((response)=>{
+  fetch(`/weather?address=${encodeURIComponent(location)}`).then((response)=>{
   response.json().then((data)=>{
     messageOne.textContent = '' ;
     if (!data.error) {
